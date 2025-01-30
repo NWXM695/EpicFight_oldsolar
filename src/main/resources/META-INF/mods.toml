@@ -1,0 +1,36 @@
+modLoader="javafml"
+loaderVersion="[47,)"
+license="MIT"
+[[mods]]
+modId="epicfight_oldsolar"
+version="1.0.0"
+displayName="史诗战斗：旧版solar"
+authors="原工作区:XcS 武器类型:114514帮忙完成"
+credits="_P1nero（倒地免疫、完美闪避残影）GuHao（格挡修复）"
+logoFile="LOGO.png"
+description = '''添加了oldsolar,
+'''
+[[dependencies.epicfight_oldsolar]]
+modId="forge"
+mandatory=true
+versionRange="[47,)"
+ordering="NONE"
+side="BOTH"
+[[dependencies.epicfight_oldsolar]]
+modId="minecraft"
+mandatory=true
+versionRange="[1.20.1,1.21)"
+ordering="NONE"
+side="BOTH"
+[[dependencies.epicfight_oldsolar]]
+modId="epicfight"
+mandatory=true
+versionRange="[0,)"
+ordering="NONE"
+side="BOTH"
+[[dependencies.epicfight_oldsolar]]
+modId="wom"
+mandatory=true
+versionRange="[0,)"
+ordering="NONE"
+side="BOTH"
